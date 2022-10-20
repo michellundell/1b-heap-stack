@@ -1,3 +1,8 @@
+/**
+ * @file 1b.c
+ * @author Michel Lundell
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
