@@ -6,6 +6,7 @@
  * Another fix
  * Another fix again
  * Another fix again and again
+ * now it works
 */
 
 #include <stdio.h>
