@@ -1,6 +1,7 @@
 /**
  * @file 1b.c
  * @author Michel Lundell
+ * Fixed very important stuff
 */
 
 #include <stdio.h>
