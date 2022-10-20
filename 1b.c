@@ -3,6 +3,7 @@
  * @author Michel Lundell
  * Fixed very important stuff
  * Did this and that.
+ * Another fix
 */
 
 #include <stdio.h>
