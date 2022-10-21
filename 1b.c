@@ -26,13 +26,22 @@ int main(int argc, char **argv)
     int b = 33; /* this is allocated on the stack */
     int c = 0;  /* this is allocated on the stack */
 
+    // using pointers to point address
+    int *fA = &a; 
+    int *fB = &b;
+    int *fC = &c;
+
     printf("ptr address is: %p\n",&ptr);
     printf("main address is: %p\n", main);
     printf("data address is: %p\n", data);
-    printf("ptr address is: %p\n",&ptr);
     printf("a address is: %p\n",&a);
     printf("b address is: %p\n",&b);
     printf("c address is: %p\n",&c);
+    // Print address using pointers
+    printf("a address using pointer: %p\n", fA);
+    printf("b address using pointer : %p\n", fB);
+    printf("c address using pointer: %p\n", fC);
+
 
     ptr = malloc(25); /* 25 chars allocated on the heap */
     strcpy(ptr,"Eet mege kontajder au rensa idau?");
